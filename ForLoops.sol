@@ -66,7 +66,7 @@ contract LastFailMyAss {
      }
 
     function firstLoop() public returns (uint256) {
-        for (uint256 i = 0; i < 5; i++) {
+        for (uint256 i = 0; i < 5; i++) {+
             for (uint256 j = 0; j < 5; j++) {
                 myOwnMethod();
 
